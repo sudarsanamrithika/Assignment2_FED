@@ -10,6 +10,17 @@
     width: 500px;
     height: auto;
    }
+   
+   .main-content {
+    margin: 10% 15%;
+   }
+   
+   .center-text-30px {
+    font-size: 30px;
+    text-align: center;
+   }
+
+
 
    .center {
     display: block;
