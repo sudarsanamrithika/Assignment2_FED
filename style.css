@@ -1,5 +1,5 @@
    h1 {
-    color:#f2f2f2;
+    color:#414b98;
    }
    
    .margin-left-20px {
@@ -10,6 +10,38 @@
     width: 500px;
     height: auto;
    }
+
+   .container-left {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+  }
+
+  .container-right {
+      display: flex;
+      padding-right: 13%;
+      padding-left: 10%;
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
+
+  .split {
+    margin-left: 2%;
+    margin-right: 2.5%;
+    padding: 0px 2.5% 7% 2.5%;
+  }
+
+  .split-right { 
+    margin-left: 2%;
+    margin-right: 2.5%;
+    padding: 0px 2.5% 7% 2.5%;
+  }
+  
+  .align-center {
+    align-items: center;
+    text-align: center;
+  }
    
    .main-content {
     margin: 10% 15%;
@@ -20,19 +52,18 @@
     text-align: center;
    }
 
-
-
    .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 90%;
+    height: 60%;
     border-radius: 5%;
   }
    
    .navbar {
     overflow: hidden;
-    background-color: #25254e;
+    background-color: #b7d4ff;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -58,3 +89,27 @@
   .main {
     margin-top: 30px; /* Add a top margin to avoid content overlay */
   }
+
+  button {
+    display: inline-block;
+  }
+  .button-container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-button {
+    width: 250px;
+    height: 150px;
+    border-radius: 45%;
+    margin-left: 20px
+  }
+  
+  .right-button {
+    width: 250px;
+    height: 150px;
+    border-radius: 45%;
+    margin-right: 20px;
+  }
+  
