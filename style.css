@@ -120,17 +120,19 @@
   }
   
   .left-button {
-    width: 250px;
-    height: 100px;
-    border-radius: 100%;
-    margin-left: 20px
+    height: auto;
+    padding: 50px 100px;
+    border-radius: 1000px;
+    border: none;
+    background-color: #ddd;
   }
   
   .right-button {
-    width: 250px;
-    height: 100px;
-    border-radius: 100%;
-    margin-right: 20px;
+    height: auto;
+    padding: 50px 100px;
+    border-radius: 1000px;
+    border: none;
+    background-color: #ddd;
   }
   
   .podium__item {
