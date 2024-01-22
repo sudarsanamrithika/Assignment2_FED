@@ -16,6 +16,8 @@
    }
 
   .shadow {
+    width: 200px;
+    height: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
   }
@@ -57,6 +59,7 @@
   .align-center {
     align-items: center;
     text-align: center;
+    justify-content: center;
   }
    
    .main-content {
@@ -166,3 +169,27 @@
     min-height: 100px;
     background: #E6B8A5;
   }
+
+  .column {
+    float: left;
+    padding: 15px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-content: center;
+    text-align: center;
+}
+
+.column img {
+    width: 100%
+}
+
+
+.flex-img:hover {
+    transform:scale(1.2)
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
